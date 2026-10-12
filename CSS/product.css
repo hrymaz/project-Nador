@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E0DACB;
+    color: #355E3B;
+    line-height: 1.6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.menu a {
+    background-color: #D9A441;
+    border-radius: 50px;
+    padding: 8px 10px;
+    margin: 10px;
+    gap: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #355E3B;
+    color: #D9A441;
+}
+
+.merge {
+    background-color: rgb(229, 192, 146);
+    display: flex;
+    flex-direction: column;
+}
+.new {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-1 {
+    margin: 70px;
+    width: 30%;
+    height: auto;
+}
+.text {
+    margin: 20px;
+}
+ .text h1 {
+    margin: 20px;
+
+}
+
+ .text p {
+    display: flex;
+    justify-content: start;
+    margin: 30px;
+}
+.paret{
+    background-color: bisque;
+}
+.paret .paret-1 h2 , h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paret p {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    /* position:fixed; */
+    bottom: 0;
+    left: 0;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+.produit {
+    background-color: rgb(229, 192, 146);
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    align-items: center;
+    padding: 50px; 
+}
+.produit_web {
+ background-color:  white;
+ border-radius: 30px;
+}
+.produit_web  img {
+ border-radius: 30px;    
+}
+.produit_web h3 {
+    display: flex;
+    justify-content: center;
+}
+.produit_web p {
+    display: flex;
+    justify-content: center;
+}
+.info{
+    background-color: #355E3B;
+    color: #D9A441;
+}
+.info h2 {
+     display: flex;
+     justify-content: center;
+}
+.info p {
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     padding: 10px;
+}
